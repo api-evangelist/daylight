@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://daylight.ai/llms.txt (published SOC 2 / ISO 27001 statements) + OAuth well-known metadata
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: "Daylight publicly states 'SOC 2 Type II certified' (https://daylight.ai/llms.txt)."
+- id: iso-27001
+  conforms: true
+  evidence: "Daylight publicly states 'ISO 27001 compliant' (https://daylight.ai/llms.txt)."
+- id: oauth2
+  conforms: true
+  evidence: "Product API and docs MCP both advertise OAuth 2.0 authorization-server / protected-resource metadata."
+- id: oidc
+  conforms: true
+  evidence: "api.daylight.ai authorization server publishes OpenID Connect discovery (openid-configuration with id_token/userinfo)."
+- id: rfc8414-oauth-metadata
+  conforms: true
+  evidence: "Serves /.well-known/oauth-authorization-server (docs) and /.well-known/oauth-protected-resource (docs + api)."
+- id: rfc9449-dpop
+  conforms: true
+  evidence: "Auth server advertises dpop_signing_alg_values_supported."
+- id: rfc9728-oauth-protected-resource-metadata
+  conforms: true
+  evidence: "MCP 401 challenge returns WWW-Authenticate Bearer with resource_metadata; protected-resource docs served."
+- id: pkce
+  conforms: true
+  evidence: "code_challenge_methods_supported: [S256] on both authorization servers."
+- id: fhir-r4
+  conforms: false
+- id: scim2
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: "No public OpenAPI available to confirm application/problem+json error envelope."
+compliance_program:
+  published: true
+  certifications: [SOC 2 Type II, ISO 27001]
+  source: https://daylight.ai/llms.txt

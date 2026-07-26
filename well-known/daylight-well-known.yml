@@ -1,0 +1,41 @@
+generated: '2026-07-18'
+method: searched
+source: https://daylight.ai/ + https://docs.daylight.ai/ + https://api.daylight.ai/
+hosts:
+- host: https://daylight.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /robots.txt
+    status: 200
+    note: Webflow marketing site; sitemap at https://daylight.ai/sitemap.xml
+- host: https://docs.daylight.ai
+  note: Mintlify-hosted developer docs; serves an OAuth-protected MCP server at /mcp
+  documents:
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: daylight-oauth-authorization-server.json
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: daylight-oauth-protected-resource.json
+  - path: /.well-known/oauth-protected-resource/mcp
+    status: 200
+    file: daylight-oauth-protected-resource-mcp.json
+- host: https://api.daylight.ai
+  note: Product/partner API; all paths return 401 (authenticated). Auth server is auth.app.daylight.ai (Stytch Connected Apps).
+  documents:
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: daylight-api-oauth-protected-resource.json
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+- host: https://auth.app.daylight.ai
+  note: Product API authorization server (OpenID Connect discovery)
+  documents:
+  - path: /v1/apps/Peuc12rtvwjSr4gXbIvmOHyv8UyFi29b/.well-known/openid-configuration
+    status: 200
+    file: daylight-api-openid-configuration.json

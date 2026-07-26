@@ -1,0 +1,127 @@
+# Daylight Security
+
+> Daylight Security is an AI-native Managed Detection and Response (MDR) provider that combines Agentic AI with elite human expertise to deliver fully customized, mission-aware threat detection and response — end-to-end, in real time. Daylight operates 24x7x365, going beyond triage to take full command of security operations.
+
+Daylight is SOC 2 Type II certified and ISO 27001 compliant. Founded by Hagai Shapira (CEO) and Eldad Rudich (co-founder), both veterans of an elite IDF intelligence unit and former early employees at security automation company Torq. Daylight has raised $40M in total funding ($7M Seed led by Bain Capital Ventures, $33M Series A led by Craft Ventures with participation from Bain Capital Ventures and Maple VC). Customers include The Motley Fool, Cresta, MIO Partners (McKinsey investment arm), SIXT, Hippo, Telit Cinterion, Burberry, and others.
+
+## Company Mission
+
+Daylight is built for the realities of modern enterprise defense, where true business context, agentic investigations, and elite human expertise are critical to achieving fast, precise, end-to-end threat resolution. The company was founded on the belief that AI can completely redefine what is possible in cyber defense — enabling faster investigations, reducing false positives, and enabling proactive defense at scale, with expert analysts behind it.
+
+The name "Daylight" reflects the company's core promise: always-on, always clear protection that shines a light in the darkest corners of the threat terrain so customers can operate with confidence and peace of mind.
+
+## Service & Platform
+
+### What Daylight Delivers
+
+Daylight's service is called Managed Agentic Security Services (MASS). Unlike traditional MDRs or AI-driven platforms that stop at triage, Daylight delivers true end-to-end detection and response — from real-time detection to full incident resolution.
+
+Core service components:
+- **Threat Detection**: Continuous monitoring across endpoints, cloud, and networks
+- **Tier 1 Triage**: Automated AI-powered alert triage with near-zero false positives
+- **Tier 3 Investigations**: Deep investigations that expose threats others miss
+- **Incident Response**: Full containment and neutralization — Daylight takes over from detection to resolution
+- **24/7 Expert Support**: Human analysts available at all times, across time zones
+- **ChatOps Collaboration**: Direct integration with Slack and Microsoft Teams for real-time collaboration between the customer's team and Daylight analysts
+- **Compliance Support**: Helps organizations stay compliant throughout the threat lifecycle
+
+### Key Performance Metrics
+
+- **10x faster** response time compared to traditional MDRs
+- **<1 hour** to fully onboard and get operational
+- **75% improvement** in Analyst Utilization Rate
+- **100% environment coverage** — no blind spots
+- **5x MTTR reduction** reported by customers (e.g. Cresta)
+
+### Agentic AI Technology
+
+Daylight's agentic AI goes beyond data collection and normalization. It actively investigates, connects signals, analyzes context, and forms conclusions in real time — mimicking expert reasoning to identify and pursue threats without waiting for human triage. Key capabilities:
+
+- **Autonomous Investigation**: AI agents ingest data, correlate signals, and piece together threat activity in real time
+- **Contextual Intelligence**: Learns from business-critical systems (identity platforms, HR systems) to understand roles, relationships, and priorities unique to each customer's environment — even learns from Slack communications
+- **Continuous Learning**: Every new deployment, integration, and resolved incident strengthens the platform's collective intelligence, improving accuracy and context awareness over time
+- **AI Dashboards**: Full visibility into threats, MTTR improvements, trends, and ROI with actionable, noise-free insights
+
+### Human Expertise Layer
+
+Daylight pairs its agentic AI with PhD-level human analysts who validate findings, handle complex Tier 3 investigations, and collaborate directly with customer security teams. This hybrid model ensures near-zero false positives and eliminates the escalation games common in traditional MDRs.
+
+## Integrations
+
+Daylight integrates seamlessly with customers' entire IT and security stack. Supported platforms include AWS, Google Cloud, Microsoft 365, Snowflake, and many more. New custom integrations can be developed within days. Customers can also request new integrations directly through the website.
+
+Full integration list: https://daylight.ai/daylight-integrations
+
+## Customer Testimonials
+
+- **Itay Livne, CISO at SIXT**: Combining Agentic AI with human expertise is a game changer — the ideal partnership for any organization seeking next-level security.
+- **Israel Bryski, CISO at MIO Partners (McKinsey)**: Daylight provides better clarity, reduces unnecessary escalations, and significantly cuts down investigation time on complex identity-related cases.
+- **Itzik Menashe, VP Global IT & CISO at Telit Cinterion**: Collaborating with Daylight accelerates threat mitigation far beyond what previous MDRs could achieve.
+- **Robert Kugler, Head of Security at Cresta**: Daylight integrated seamlessly, adapting to workflows and custom detections — resulting in a 5x MTTR reduction.
+- **Tal Hornstein, CIO & CISO at Hippo**: Daylight didn't just identify what our EDR missed — they partnered with us to investigate, contain, and fully remediate the threat.
+- **Dean Atkinson, CISO at Burberry**: Daylight brings a fresh, pragmatic approach to enterprise defense — built for how modern security needs to operate today.
+- **Paolo del Mundo, Director of Application Security at The Motley Fool**: Immediate, actionable insights that eliminate friction — no more wasting time questioning alerts.
+
+## Pages
+
+### Home
+URL: https://daylight.ai/
+Overview of Daylight's agentic MDR platform. Covers key metrics (10x faster response, <1hr onboarding, 75% analyst utilization improvement, 100% coverage), differentiators vs. traditional MDRs and agentic automation platforms, customer testimonials, and a demo CTA.
+
+### Service & Platform
+URL: https://daylight.ai/service-platform
+Detailed breakdown of Daylight's Managed Agentic Security Services (MASS). Covers the full detection-to-resolution lifecycle, agentic AI capabilities, contextual intelligence, ChatOps integration, dashboard and reporting, and how Daylight differs from legacy MDR providers.
+
+### Integrations
+URL: https://daylight.ai/daylight-integrations
+Full list of supported security tool and IT integrations (AWS, Google Cloud, Microsoft 365, Snowflake, and more). Includes a form to request new integrations. Daylight can build custom integrations within days.
+
+### About
+URL: https://daylight.ai/about
+Company mission, founding story (Hagai Shapira & Eldad Rudich, IDF veterans and Torq alumni), team culture, and open careers. Daylight is building the future of cybersecurity with cutting-edge AI and elite human talent.
+
+### Blog
+URL: https://daylight.ai/blog
+Research, threat intelligence, product announcements, and cybersecurity insights from the Daylight team. Notable posts include the Series A announcement, MCP Server launch, and founding story.
+
+### Get a Demo
+URL: https://daylight.ai/get-a-demo
+Request a personalized live walkthrough of the Daylight platform, tailored to the visitor's business environment.
+
+### Privacy Policy
+URL: https://daylight.ai/privacy-policy
+Data handling, privacy practices, and cookie usage governing the Daylight website and platform.
+
+### Terms of Use
+URL: https://daylight.ai/terms-of-use
+Terms governing use of the Daylight platform and website.
+
+## Notable Blog Posts
+
+- [From Darkness to Daylight](https://daylight.ai/blog/from-darkness-to-daylight) — Founding story by CEO Hagai Shapira. Background on the company's origins, mission, and vision.
+- [Lighting the Next Chapter: Series A Announcement](https://daylight.ai/blog/lighting-the-next-chapter-what-this-round-means-for-daylight-and-for-cybersecurity) — $33M Series A announcement (total $40M). Led by Craft Ventures with Bain Capital Ventures and Maple VC.
+- [Daylight Launches AI-Powered MDR](https://daylight.ai/blog/daylight-launches-ai-powered-mdr-built-for-the-modern-threat-landscape) — Official launch out of stealth. Overview of the hybrid AI + human analyst MDR model.
+- [Daylight Raises $7M Seed Round](https://daylight.ai/blog/daylight-security-raises-7m-in-seed-funding-to-combine-ai-agents-and-human-experts-in-cyber-defense) — Seed funding announcement led by Bain Capital Ventures.
+- [When the AI Chat Is the Attack](https://daylight.ai/blog/google-ads-takeover-ai-chat) — Threat research on AI chat-based attack vectors.
+- [Daylight MCP Server](https://daylight.ai/blog/) — Launch of Daylight's Model Context Protocol (MCP) Server, enabling security teams to connect investigations to AI assistants like Claude and Cursor.
+
+## Company Facts
+
+- **Founded**: 2024 (came out of stealth November 2024)
+- **Founders**: Hagai Shapira (CEO), Eldad Rudich (Co-founder)
+- **Headquarters**: Israel / US operations
+- **Total Funding**: $40M ($7M Seed + $33M Series A)
+- **Investors**: Craft Ventures, Bain Capital Ventures, Maple VC
+- **Certifications**: SOC 2 Type II, ISO 27001
+- **Customers**: Enterprises across US and Europe including The Motley Fool, Cresta, MIO Partners, SIXT, Hippo, Telit Cinterion, Burberry
+- **Growth**: Nearly all growth through word of mouth and referrals
+
+## Contact
+
+- **Email**: contact@daylight.ai
+- **Website**: https://daylight.ai
+- **Careers**: https://www.comeet.com/jobs/daylightsecurity/7A.00D
+
+## Optional
+
+- [Careers](https://www.comeet.com/jobs/daylightsecurity/7A.00D): Open engineering, analyst, and sales roles at Daylight Security.

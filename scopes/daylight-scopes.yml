@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  https://api.daylight.ai/.well-known/oauth-protected-resource +
+  https://auth.app.daylight.ai/.../.well-known/openid-configuration +
+  https://docs.daylight.ai/.well-known/oauth-authorization-server
+schemes:
+- name: daylight-api-oidc
+  applies_to: https://api.daylight.ai
+  issuer: https://auth.app.daylight.ai/v1/apps/Peuc12rtvwjSr4gXbIvmOHyv8UyFi29b
+  authorizationUrl: https://auth.app.daylight.ai/oauth2/v1/apps/authorize
+  tokenUrl: https://auth.app.daylight.ai/oauth2/v1/apps/token
+  flows: [authorizationCode, clientCredentials, refreshToken]
+- name: daylight-docs-mcp-oauth
+  applies_to: https://docs.daylight.ai/mcp
+  issuer: https://docs.daylight.ai/mcp/oauth
+  authorizationUrl: https://docs.daylight.ai/mcp/oauth/authorize
+  tokenUrl: https://docs.daylight.ai/mcp/oauth/token
+  flows: [authorizationCode, clientCredentials, refreshToken]
+scopes:
+- scope: openid
+  description: OpenID Connect authentication scope for the Daylight product API (api.daylight.ai).
+  schemes: [daylight-api-oidc]
+- scope: mcp:search
+  description: Search access to the Daylight documentation MCP server (docs.daylight.ai/mcp).
+  schemes: [daylight-docs-mcp-oauth]
+notes: >-
+  The product API advertises only the baseline `openid` scope in its published
+  protected-resource metadata; any finer-grained product scopes are not exposed
+  in public discovery (authenticated surface). No scope reference page is
+  published in the public docs.

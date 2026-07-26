@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+status: published
+source: >-
+  https://docs.daylight.ai/mcp (live 401 Bearer challenge with
+  www-authenticate resource_metadata) +
+  https://docs.daylight.ai/.well-known/oauth-authorization-server
+servers:
+- name: daylight-docs-mcp
+  description: >-
+    OAuth-protected Model Context Protocol server hosted on Daylight's Mintlify
+    documentation site. Exposes documentation search to AI assistants. Confirmed
+    live: a POST initialize returns HTTP 401 with
+    `WWW-Authenticate: Bearer resource_metadata="https://docs.daylight.ai/.well-known/oauth-protected-resource"`.
+  transport: http
+  url: https://docs.daylight.ai/mcp
+  auth:
+    type: oauth2
+    issuer: https://docs.daylight.ai/mcp/oauth
+    authorization_endpoint: https://docs.daylight.ai/mcp/oauth/authorize
+    token_endpoint: https://docs.daylight.ai/mcp/oauth/token
+    registration_endpoint: https://docs.daylight.ai/mcp/oauth/register
+    grant_types: [authorization_code, client_credentials, refresh_token]
+    code_challenge_methods: [S256]
+    scopes: [mcp:search]
+  tools:
+  - name: search
+    description: Search the Daylight developer documentation (Mintlify docs-search MCP).
+    scope: mcp:search
+notes: >-
+  Daylight's blog also references a product "MCP Server" for connecting security
+  investigations to AI assistants (Claude, Cursor). A request to
+  https://api.daylight.ai/mcp returns HTTP 401 (authenticated), consistent with
+  a real but access-gated product MCP surface; its tool list is not publicly
+  discoverable without credentials and is therefore not enumerated here (no
+  fabrication).
