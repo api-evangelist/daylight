@@ -64,6 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Daylight is a company surfaced as a portfolio company of a16z, bain-capital-ventures, craft-ventures, union-square-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Daylight (Daylight Security) is an AI-native Managed Detection and Response (MDR) provider delivering what it calls Managed Agentic Security Services (MASS) — combining agentic AI with elite human analysts to run security operations end-to-end, from real-time threat detection through Tier 1 triage, deep Tier 3 investigations, and full incident response, 24x7x365. The platform ingests signals across endpoints, cloud, and networks, learns each customer's business context (identity platforms, HR systems, even Slack), and connects into the customer stack (AWS, Google Cloud, Microsoft 365, Snowflake, Slack, Microsoft Teams). Daylight exposes a partner API at api.daylight.ai (OAuth2 / OIDC, Bearer) plus an OAuth-protected Model Context Protocol (MCP) server so security teams can connect investigations to AI assistants such as Claude and Cursor. Daylight is SOC 2 Type II certified and ISO 27001 compliant. Founded in 2024 by Hagai Shapira and Eldad Rudich; backed by Craft Ventures, Bain Capital Ventures, and Maple VC ($40M raised). Added to the API Evangelist network from VC-portfolio discovery.
 
-Backed by: a16z, bain-capital-ventures, craft-ventures, union-square-ventures — https://daylight.ai/
+**Areas:** Company · Security · Cybersecurity · Managed Detection and Response · MDR · Threat Detection · Incident Response · AI Agents · SOC · MCP
+
+## Daylight on APIs.io
+
+Everything profiled for Daylight is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/daylight/](https://apis.io/providers/daylight/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Daylight API](https://apis.io/apis/daylight/daylight-api/) — Daylight's partner/product API surface at api.daylight.ai, protected by OAuth2 / OpenID Connect (Bearer token, authorization server at…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [daylight-mcp.yml](https://apis.io/servers/daylight/daylight-mcp-yml/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Daylight Authentication](https://apis.io/security/daylight/daylight-authentication/)
+- [Daylight Domain Security](https://apis.io/security/daylight/daylight-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Daylight Scopes](https://apis.io/scopes/daylight/daylight-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://daylight.ai/)
+- [Documentation](https://docs.daylight.ai)
+- [API reference](https://docs.daylight.ai)
+- [Sign up](https://app.daylight.ai/)
+- [Blog](https://daylight.ai/blog)
+- [Terms of service](https://daylight.ai/terms-of-use)
+- [Privacy policy](https://daylight.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 22.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 28.9 |
+
+**Agent readiness 22.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 39.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/daylight/](https://apis.io/providers/daylight/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Daylight: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/daylight/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
